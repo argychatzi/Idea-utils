@@ -1,0 +1,11 @@
+#if($field.modifierStatic)
+static ##
+#end
+$field.type ##
+#set($name = $StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))
+#if (1)
+  ##
+#end
+${name}() {
+  return $field.name;
+}

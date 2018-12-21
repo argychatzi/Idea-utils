@@ -1,0 +1,6 @@
+<template name="test" value="@org.junit.Test&#10;public void $NAME$(){&#10;$END$&#10;}" description="jUnitTest" toReformat="false" toShortenFQNames="true">
+  <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+  <context>
+    <option name="JAVA_DECLARATION" value="true" />
+  </context>
+</template>
